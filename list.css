@@ -1,0 +1,57 @@
+@page {
+   size: 105mm 142mm !important;
+   margin: 2mm 2mm 2mm 2mm !important;
+}
+.pick_list .print_info table thead th.col_2 {
+	width: 50% !important;
+}
+.pick_list .print_info table thead th.col_3_1 {
+	width: 10% !important;
+}
+.pick_list .print_info table thead th.col_4 {
+	width: 40% !important;
+}
+.lt, .rt.t_r p:first-child, .rt.t_r p:nth-of-type(2), .rt.t_r p:nth-of-type(3) {
+    display: none !important;
+}
+th.col_1,th.col_3 {
+    display: none;
+}
+.rows .col_1, .col_3{
+    display : none !important;
+}
+}
+th.col_1 {
+    width: 10%;
+}
+
+.rows .col_3{
+    display : none !important;
+}
+.rows .col_2 p:nth-of-type(2) {
+    display: none !important;
+}
+tbody, tr, td, .rows .col_2{
+    width: 50% !important;
+}
+.pick_list .rows .col_2, .col_4 {
+    font-size :18px !important;
+    padding: 1px !important;
+}
+.pick_list .rows:not(.row_tit) {
+    border-bottom: 1.5px dashed #170c0c;
+}
+.pick_list .rows .col_1 .item_info {
+    padding-left: 2mm;
+    width: calc(100% - 18mm);
+    display: none !important;
+}
+.pick_list[data-type="1"] .print_info table .col_1 {
+    width: 10% !important;
+}
+tbody, tr, td, .rows .col_2 {
+    width: 35% !important;
+}
+.pick_list .print_info table thead th.col_2 {
+    width: 35% !important;
+}
